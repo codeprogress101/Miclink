@@ -73,6 +73,46 @@ body {
     overflow-x: hidden;
 
 }
+/* Contact Cards */
+.contact-card {
+    background: #0f0f16;
+    border: 1px solid rgba(255,255,255,0.08);
+    border-radius: 16px;
+    padding: 40px 30px;
+    text-align: center;
+    height: 100%;
+    transition: all 0.35s ease;
+}
+
+.contact-card i {
+    font-size: 42px;
+    color: #c8ff00;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+.contact-card h4 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-weight: 600;
+}
+
+.contact-card p,
+.contact-card a {
+    color: #cfcfd4;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+.contact-card a:hover {
+    color: #c8ff00;
+}
+
+.contact-card:hover {
+    transform: translateY(-8px);
+    border-color: #c8ff00;
+    box-shadow: 0 15px 40px rgba(200, 255, 0, 0.15);
+}
 
 
 
